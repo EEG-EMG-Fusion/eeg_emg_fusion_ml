@@ -109,8 +109,7 @@ Results are saved to `temporal_analysis/timing_results/`.
 Test subjects: 8, 9, 17, 24, 30, 33
 
 | Model | Modality | Accuracy | Macro F1 |
-|---|---|---|---|
-| EEGNet | EEG | 33.9% | 0.305 |
+| EEGNet| EEG | 33.9% | 0.305 |
 | EEG CNN-LSTM | EEG | 35.2% | 0.337 |
 | EMGNet | EMG | 79.9% | 0.801 |
 | EMG CNN-LSTM | EMG | 84.1% | 0.842 |
