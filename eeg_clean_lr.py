@@ -1,5 +1,5 @@
 """
-EEG Feature Baseline — Khan et al. (2020) Feature Set
+EEG Feature Baseline
 -------------------------------------------------------
 Muskaan Garg | H00416442 | Heriot-Watt University
 
@@ -21,9 +21,6 @@ Features (Khan et al., 2020, IEEE Reviews in Biomedical Engineering):
     9.  Theta  4–8    Hz  — motor oscillations
     10. Alpha  8–12   Hz  — ERD marker (mu rhythm)
     11. Beta   13–30  Hz  — motor preparation ERD
-
-Run from project root:
-    python eeg_lr_clean.py
 
 Compares:
   - Original pipeline (X_eeg_win.npy)         + old 6-feature set
