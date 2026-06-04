@@ -1,0 +1,102 @@
+{
+  "model": "EEGCnnLstmClean",
+  "architecture": "Conv1d+BiLSTM+Attention (unified with EMG)",
+  "data": "ICA-cleaned NeBULA derivatives",
+  "features": "5 features x 15 channels = 75 (RMS, std, WL, alpha, beta)",
+  "best_epoch": 7,
+  "best_val_f1": 0.3764640375723243,
+  "test_accuracy": 0.37790697674418605,
+  "test_f1_macro": 0.37370908454402246,
+  "confusion_matrix": [
+    [
+      63,
+      55,
+      50
+    ],
+    [
+      41,
+      85,
+      48
+    ],
+    [
+      47,
+      80,
+      47
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.41721854304635764,
+      "recall": 0.375,
+      "f1-score": 0.3949843260188088,
+      "support": 168.0
+    },
+    "1": {
+      "precision": 0.38636363636363635,
+      "recall": 0.4885057471264368,
+      "f1-score": 0.43147208121827413,
+      "support": 174.0
+    },
+    "2": {
+      "precision": 0.32413793103448274,
+      "recall": 0.27011494252873564,
+      "f1-score": 0.2946708463949843,
+      "support": 174.0
+    },
+    "accuracy": 0.37790697674418605,
+    "macro avg": {
+      "precision": 0.37590670348149224,
+      "recall": 0.3778735632183908,
+      "f1-score": 0.37370908454402246,
+      "support": 516.0
+    },
+    "weighted avg": {
+      "precision": 0.3754263332539938,
+      "recall": 0.37790697674418605,
+      "f1-score": 0.37346169801524576,
+      "support": 516.0
+    }
+  },
+  "train_subjects": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    10,
+    11,
+    14,
+    15,
+    16,
+    18,
+    19,
+    20,
+    23,
+    25,
+    29,
+    31,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40
+  ],
+  "val_subjects": [
+    13,
+    22,
+    26,
+    27,
+    32
+  ],
+  "test_subjects": [
+    8,
+    9,
+    17,
+    24,
+    30,
+    33
+  ]
+}
